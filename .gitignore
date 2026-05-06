@@ -1,0 +1,15 @@
+# Generated experiment output images
+result_*.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
