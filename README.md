@@ -198,11 +198,7 @@ $$J_{k+1}(x) = \min_{u \in \mathcal{U}} \bigl[g(x, u) + \gamma\, J_k\bigl(f(x, u
 | **二次型代价** | $g = q_\theta(\theta-\pi)^2 + q_{\dot\theta}\dot{\theta}^2 + r_u u^2$ | **平滑控制**：控制量随状态连续渐变 |
 | **最短时间代价** | $g = 0$（在目标邻域内），$g = 1$（否则） | **Bang-Bang 控制**：控制量总取 $\pm u_{\max}$ |
 
-### 策略提取
 
-价值函数收敛后，对每个网格点提取贪心策略：
-
-$$\pi^*(x) = \arg\min_{u \in \mathcal{U}} \bigl[g(x, u) + \gamma\, J^*\bigl(f(x, u)\bigr)\bigr]$$
 
 
 ## 实验结果示例
