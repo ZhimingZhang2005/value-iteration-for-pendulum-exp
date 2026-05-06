@@ -204,7 +204,6 @@ $$J_{k+1}(x) = \min_{u \in \mathcal{U}} \bigl[g(x, u) + \gamma\, J_k\bigl(f(x, u
 
 $$\pi^*(x) = \arg\min_{u \in \mathcal{U}} \bigl[g(x, u) + \gamma\, J^*\bigl(f(x, u)\bigr)\bigr]$$
 
----
 
 ## 实验结果示例
 
